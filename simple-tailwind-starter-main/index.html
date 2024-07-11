@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Tailwind &mdash;Equalizer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- Global Container -->
+    <div class="relative w-screen px-48 py-12 font-sans">
+      <!-- navbar -->
+      <header class="max-w-max">
+        <!-- Logo -->
+        <img src="../logo.svg" alt="logo" />
+        <!-- bg-pattern 1 -->
+        <img
+          src="../bg-pattern-1.svg"
+          class="absolute top-0 right-0"
+          alt="bg-pattern-1"
+        />
+      </header>
+
+      <!-- Hero Heading  -->
+      <h1
+        class="mt-10 text-darkBlue leading-tight font-bold pt-10 text-7xl w-2/3"
+      >
+        We make your music sound extraordinary.
+      </h1>
+
+      <!-- hero para -->
+      <p class="mt-10 text-gray1 w-3/5 leading-relaxed text-xl">
+        A system audio equalizer specifically designed for Android and iOS.
+        Freely tune the way your music sounds with a professional grade
+        parametric EQ & volume mixer. Control bass, mids, treble, gain control,
+        reverb, and more!
+      </p>
+
+      <!-- Card -->
+      <div class="p-10 mt-96 bg-[#191826] rounded-3xl w-full relative">
+        <img
+          src="../bg-pattern-2.svg"
+          alt="bg-pattern-2"
+          class="translate-x-full w-80 -translate-y-10"
+        />
+        <div>
+          <!-- phone image -->
+          <img
+            src="../illustration-app.png"
+            height="450p"
+            width="250"
+            class="absolute -top-40 left-48"
+            alt="illustration-app"
+          />
+          <!-- pice card container-->
+          <div
+            class="absolute p-12 bg-[#FA7453] rounded-lg right-14 -bottom-52"
+          >
+            <!-- price card heading -->
+            <h2 class="text-4xl font-medium text-white">Premium EQ</h2>
+            <!-- price card text -->
+            <p class="w-80 mt-9 text-[#FCFAF9] text-lg">
+              Get expert-level control with a robust equalizer, volume mixer,
+              and spatial audio. Take your listening experience to a whole new
+              level and access all our incredible features!
+            </p>
+            <!-- PRICE -->
+            <div class="flex space-x-4 text-[#FCFAF9] mt-9 mb-12 items-center">
+              <div class="text-7xl font-bold">$4</div>
+              <div class="text-xl">/month</div>
+            </div>
+            <!-- buttons -->
+            <a
+              href="#"
+              class="flex items-center justify-center mb-7 text-xl py-4 px-20 rounded-lg text-[#FCFAF9] font-medium bg-[#191826]"
+            >
+              <img
+                src="../icon-apple.svg"
+                class="w-6 mr-2 -mt-1"
+                alt="icon-apple"
+              />iOS Download</a
+            >
+            <a
+              href="#"
+              class="flex items-center justify-center text-xl py-4 px-20 rounded-lg text-[#191826] font-bold bg-[#FCFAF9]"
+            >
+              <img
+                src="../icon-android.svg"
+                class="w-6 mr-2 -mt-1"
+                alt="icon-android"
+              />Android Download</a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer class="mt-80 flex justify-between w-f">
+        <!-- footer logo -->
+        <div class="flex space-x-36">
+          <div><img src="../logo.svg" alt="logo" /></div>
+          <!-- decription -->
+
+          <div class="text-[#191826] leading-relaxed w-80">
+            All rights reserved © Equalizer 2021 Have any problems? Contact us
+            via social media or email us at<strong>
+              equalizer@example.com</strong
+            >
+          </div>
+        </div>
+        <!-- social icon container -->
+        <div class="flex h-20 space-x-6 justify-center items-center">
+          <img src="../icon-facebook.svg" class="h-6" alt="" />
+          <img src="../icon-instagram.svg" class="h-6" alt="" />
+          <img src="../icon-twitter.svg" class="h-6" alt="" />
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
